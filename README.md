@@ -67,3 +67,44 @@ It is part of a broader analytics project designed to demonstrate Python-based d
 
 ```python
 df_usd.to_csv("usd_lkr_exchange_rates.csv", index=False)
+```
+# API Request – Shanghai Stock Data via Alpha Vantage
+
+This script demonstrates how to fetch **daily stock market data** for the Shanghai stock symbol `600104.SHH` using the **Alpha Vantage API**. The purpose is to showcase API integration in Python and basic data conversion for time-series analysis.
+
+---
+
+## 🧠 What the Script Does
+
+- Connects to the **Alpha Vantage** API using a free API key.
+- Sends a request to the `TIME_SERIES_DAILY` endpoint for the full historical daily time series.
+- Converts the JSON response into a structured `pandas` DataFrame.
+- Lays the groundwork for time-series analysis, forecasting, or visualization.
+
+---
+
+## 🔧 Technologies Used
+
+- `requests` – For making HTTP GET requests.
+- `pandas` – For converting and handling JSON data.
+
+---
+
+## 🌐 API Source
+
+- **Provider**: [Alpha Vantage](https://www.alphavantage.co)
+- **Endpoint**: `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY`
+- **Symbol Used**: `600104.SHH` (Shanghai-listed stock)
+- **Authentication**: Requires a free API key from Alpha Vantage.
+
+---
+
+## 📁 Output
+
+- A raw DataFrame `df_shang` containing the nested JSON time series data.
+- (Optional) You can transform and save this data as CSV:
+
+```python
+df_shang.to_csv("shanghai_stock_data.csv")
+
+
