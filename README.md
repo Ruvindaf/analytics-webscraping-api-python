@@ -132,5 +132,39 @@ This script demonstrates how to fetch **daily stock market data** for the Shangh
 
 ```python
 df_shang.to_csv("shanghai_stock_data.csv")
+```
+
+# Example plots in the main project
+
+### Observations from Summary Statistics, Box Plots and Histograms
+<img width="1489" height="490" alt="image" src="https://github.com/user-attachments/assets/f8c7c4d8-e787-442f-95e1-141a20981943" />
+
+### **Time series data Visualization**
+<img width="871" height="396" alt="image" src="https://github.com/user-attachments/assets/ab060d70-3dcd-4d4d-9726-a27ac916f3fc" />
+
+### Sri Lankan Stock Market Indices Over Time
+<img width="1179" height="626" alt="image" src="https://github.com/user-attachments/assets/31b3b917-540c-4f1b-acf8-03f438c7dceb" />
+
+### Correlation Matrix
+<img width="1181" height="947" alt="image" src="https://github.com/user-attachments/assets/332229ec-f26b-42d3-bf63-abe35fd181f1" />
+
+### Actual vs Predicted
+<img width="715" height="472" alt="image" src="https://github.com/user-attachments/assets/def2375b-ed68-444d-8d68-e5773b4d9a80" />
+
+### Prediction with Random Forest model
+<img width="945" height="392" alt="image" src="https://github.com/user-attachments/assets/fe6aa337-511e-4fa0-9eee-c6fb36fb3eaa" />
+
+### Residual analysis
+<img width="1491" height="545" alt="image" src="https://github.com/user-attachments/assets/2838fd3a-0447-41b2-974e-f3084d8bc023" />
+
+### VAR Model forcast
+<img width="871" height="396" alt="image" src="https://github.com/user-attachments/assets/de553eeb-f0b2-47e6-ad1a-743890d7c934" />
+<img width="982" height="973" alt="image" src="https://github.com/user-attachments/assets/143f2d24-1098-4002-9cd8-206d82553122" />
+<img width="1193" height="606" alt="image" src="https://github.com/user-attachments/assets/014fe7e0-965a-495c-bdba-4672b7cd455b" />
+
+
+
+
+
 
 
