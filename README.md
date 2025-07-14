@@ -32,6 +32,7 @@ This project is a hands-on exercise designed to showcase various data analytics 
 
 ## 📂 Project Structure
 
+
 # Executive Summary
 
 This project investigates the relationships between the All Share Price Index (ASPI) and various macroeconomic indicators, explores the predictive power of these variables, and assesses the influence of international stock markets on the Sri Lankan stock market. The analysis is based on a comprehensive dataset compiled from multiple sources, including the Colombo Stock Exchange, the Central Bank of Sri Lanka, X-Rates website(web scrape) and Alpha Vantage API.
